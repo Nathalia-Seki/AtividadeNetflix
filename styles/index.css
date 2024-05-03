@@ -1,0 +1,50 @@
+:root{
+    --corBtnBanner: #574d4c;
+    --black : black;
+    --branco : #ecebeb;
+    --fontePrincipal : 'Trebuchet MS';
+    --tamanhoFonteTitulo : 24pt;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header , footer{
+    width: 100%;
+    display: flex;
+}
+
+header{
+    align-items: center;
+    font-weight: bold;
+    background-color: var(--black);
+    
+}
+
+header a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header li{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: left;
+}
+
+#logo{
+    width: 150px;
+}
+
